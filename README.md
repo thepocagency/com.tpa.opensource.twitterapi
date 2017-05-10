@@ -20,7 +20,7 @@ With only one line:
 
 ### To call a Twitter streaming URL:
 
-To execute Twitter calls with chaining method:
+To execute Twitter calls with chaining methods:
 
 ```
     List<TwitterStatus> statuses = new StreamingSearch(twitterAuthenticator, delayInSeconds, sizeLimit)              
