@@ -81,7 +81,7 @@ public abstract class AbstractStreamingCall<CLASS_TYPE extends AbstractCall, BEA
     }
     
     /**
-     * Check if the delay is reached or not
+     * Checks if the delay is reached or not
      * 
      * At the first call, this method will set the endTime
      * 

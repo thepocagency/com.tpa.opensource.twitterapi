@@ -33,9 +33,9 @@ import java.io.IOException;
 import java.util.logging.Logger;
 
 /**
- * You just to call the default constructor to use this class.
+ * You just have to call the default constructor to use this class.
  * 
- * User will have to:
+ * And user will have to:
  * 
  * 1. Visit the random link to Twitter authentification and to authorize the Twitter application
  * 2. Copy/paste the given PIN in the console

@@ -27,7 +27,7 @@ import com.tpa.twitterapi.api.generic.call.streamingcall.InterfaceStreamingCall;
  * 
  * track = default text search, value defined in the config.properties
  * 
- * You can more HTTP parameters by using the generic addParameter() method
+ * You can add more HTTP parameters by using the generic addParameter() method
  * 
  * Cf. Twitter developer documentation: https://dev.twitter.com/streaming/reference/post/statuses/filter for more information
  * 
@@ -41,8 +41,8 @@ public class StreamingSearch extends AbstractStreamingCall<StreamingSearch, Twit
     /**
      * 
      * @param twitterAuthenticator : containing the authenticated HttpRequestFactory
-     * @param delayInSeconds : the number of second you want to wait for the twitter call 
-     * @param sizeLimit : or the max number of statuses you want to retrieve
+     * @param delayInSeconds : the number of second you want to wait for the twitter call (if null, default from config.properties is used)
+     * @param sizeLimit : or the max number of statuses you want to retrieve (if null, default from config.properties is used)
      */
     public StreamingSearch(TwitterAuthenticator twitterAuthenticator, Integer delayInSeconds, Integer sizeLimit) {
         super(TwitterStatus.class, twitterAuthenticator, STREAMING_SEARCH_URL, delayInSeconds, sizeLimit);
