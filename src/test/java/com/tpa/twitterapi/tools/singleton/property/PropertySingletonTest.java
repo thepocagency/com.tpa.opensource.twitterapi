@@ -15,7 +15,6 @@
  */
 package com.tpa.twitterapi.tools.singleton.property;
 
-import com.tpa.twitterapi.tools.singleton.property.PropertySingleton;
 import com.tpa.twitterapi.tools.singleton.logger.LoggerSingleton;
 import java.util.logging.Logger;
 import org.hamcrest.CoreMatchers;
@@ -91,7 +90,7 @@ public class PropertySingletonTest {
             fail("The test is not valid, please check the type of the formater in the config file!");
         }
     }
-    
+        
     @Test
     public void testProperty_level() {
         assertNotNull(PropertySingleton.getInstance().getProperty("java.util.logging.level"));

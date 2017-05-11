@@ -15,7 +15,6 @@
  */
 package com.tpa.twitterapi.tools.singleton.logger;
 
-import com.tpa.twitterapi.tools.singleton.logger.LoggerSingleton;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;

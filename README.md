@@ -8,7 +8,7 @@ This project contains couple of generic classes to create new Twitter calls, qui
 
 Follow this link to launch a simple example with only one main method: [https://github.com/thepocagency/com.tpa.opensource.twitterapi.examples](https://github.com/thepocagency/com.tpa.opensource.twitterapi.examples)
 
-We try to facilitate and minimize your code, so you will be able to:
+We try to facilitate and minimize your code, so you will be able:
 
 ### To authenticate yourself on Twitter:
 

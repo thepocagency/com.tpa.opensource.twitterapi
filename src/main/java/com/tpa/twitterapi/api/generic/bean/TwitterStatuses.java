@@ -85,7 +85,7 @@ public class TwitterStatuses extends GenericTwitterBean {
         }
         
         if (!statuses.contains(twitterStatus)) {
-            LOGGER.log(Level.INFO, "This is a new tweet:\t{0}", twitterStatus.toString());
+            LOGGER.log(Level.INFO, "\t\tNew tweet: {0}", twitterStatus.toString());
             statuses.add(twitterStatus);
             return true;
         }
